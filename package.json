@@ -8,7 +8,7 @@
     "build": "npm install --prefix ./app && npm run build --prefix ./app && npm install && tsc",
     "prestart": "npm start --prefix ./api",
     "i": "npm install --prefix ./app && npm run build --prefix ./app && npm install && npm install ./api",
-    "build2": " npm run build --prefix ./app",
+    "build2": " npm install",
     "start2": "nodemon api/dist/index.js",
     "start": "node api/dist/index.js"
   },
